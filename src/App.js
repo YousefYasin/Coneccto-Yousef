@@ -11,8 +11,11 @@ function App() {
   const [theme, setTheme] = useState("light");
   useEffect(() => {
     document.title = "Yousef Yasin";
-    let themes = localStorage.getItem("theme");
-    setTheme(themes);
+    if (localStorage.theme) {
+      let themes = localStorage.getItem("theme");
+      console.log(themes);
+      setTheme(themes);
+    }
   }, []);
   const themeChange = () => {
     if (theme === "light") {
