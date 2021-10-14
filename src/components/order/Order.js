@@ -3,14 +3,14 @@ import { MainCard, SideCard } from "../mainCart";
 import "./order.css";
 const Order = () => {
   return (
-    <div className="container-fluid px-5">
+    <div className="container-fluid">
       <div className="row ">
-        <div className="col-6">
-          <button type="button" class="btn btn-outline btn-outline w-100 rounded-lg ">
+        <div className="col-md-6 col-sm-12">
+          <button type="button" class="btn btn-outline btn-outline w-100 rounded-lg  ">
             Order Management
           </button>
         </div>
-        <div className="col-6">
+        <div className="col-md-6 my-1 col-sm-12">
           <button type="button" class="btn  btn-outline w-100 rounded-lg btn-outline-active">
             Orders Dispatch
           </button>
@@ -18,7 +18,7 @@ const Order = () => {
       </div>
 
       <div className="row  mt-2">
-        <div className="col-5 pr-1">
+        <div className="col-md-5 col-sm-12 ">
           <MainCard
             title="Incoming 2"
             supplier="./images/img7.png"
@@ -43,7 +43,7 @@ const Order = () => {
             details={null}
           />
         </div>
-        <div className="col-5">
+        <div className="col-md-5 col-sm-12">
           <MainCard
             title="Outgoing 1"
             supplier="./images/supplier.png"
@@ -68,7 +68,7 @@ const Order = () => {
             details={{ address: "#326  Leandro M.", number: "+358414361234" }}
           />
         </div>
-        <div className="col-2 px-0 pr-3 ">
+        <div className="col-md-2  ">
           <SideCard />
         </div>
       </div>
