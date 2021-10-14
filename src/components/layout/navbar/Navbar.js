@@ -15,12 +15,12 @@ const Navbar = ({ setTheme }) => {
         </li>
 
         <li class="nav-item mt-2">
-          <img src="./images/Group 1.png" />
+          <img src="./images/Group 1.png" alt="test" />
         </li>
         <li class="nav-item">
           <div className="d-flex justify-content-start w-15">
             <div className="user-icon">
-              <img class="nav-link disabled" src="./images/Layer.png" />
+              <img class="nav-link disabled" src="./images/Layer.png" alt="test" />
               <span className="active-state"></span>
             </div>
             <div className="user-id ml-5 mt-2">

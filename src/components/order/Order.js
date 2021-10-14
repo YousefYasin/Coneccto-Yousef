@@ -5,7 +5,7 @@ const Order = () => {
   return (
     <div className="container-fluid">
       <div className="row ">
-        <div className="col-md-6 col-sm-12">
+        <div className="col-md-6  my-1 col-sm-12">
           <button type="button" class="btn btn-outline btn-outline w-100 rounded-lg  ">
             Order Management
           </button>
