@@ -1,0 +1,87 @@
+.btn-outline {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.btn-outline-active {
+  background-color: #e4e4e4;
+}
+.card {
+  background-color: #f7f7f7;
+}
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card-inner {
+  background-color: #ffffff;
+  border-radius: 4%;
+}
+.sub-text {
+  margin-bottom: 0 !important;
+  color: #9b9b9b;
+  font-size: 12px;
+}
+canvas {
+  vertical-align: top !important;
+}
+.num-text {
+  margin-bottom: 0 !important;
+  color: #9b9b9b;
+  font-size: 14px;
+}
+.anchor-text {
+  font-size: 14px;
+}
+.anchor-cancel {
+  font-size: 16px;
+  color: red;
+}
+.none-margin {
+  margin: 0 !important;
+}
+.note {
+  border: 0px solid #cc3333;
+}
+.note {
+  display: inline-block;
+  position: relative;
+  padding: 1px;
+  color: #806840;
+  border: 0px solid #cc3333;
+  background-color: #ffeed0;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.note em.out {
+  position: absolute;
+  left: 50%;
+  top: -7px;
+  display: block;
+  background: transparent;
+  border-left: 7px dashed transparent;
+  border-right: 7px dashed transparent;
+  border-bottom: 7px solid #ffeed0;
+  overflow: hidden;
+  transform: translate(-50%);
+}
+.note em.inner {
+  position: absolute;
+  left: 50%;
+  top: -7px;
+  display: block;
+  background: transparent;
+  border-left: 7px dashed transparent;
+  border-right: 7px dashed transparent;
+  border-bottom: 7px solid #ffeed0;
+  overflow: hidden;
+  transform: translate(-50%);
+}
+.list-group-item {
+  border: 0;
+  font-size: 16px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+small {
+  font-size: 10px;
+}

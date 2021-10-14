@@ -1,0 +1,55 @@
+.nav {
+  margin-bottom: -10px;
+}
+.user-icon {
+  /* background-color: #6F7070; */
+  width: 20px;
+  position: relative;
+  border-radius: 50%;
+}
+.active-state {
+  position: absolute;
+  top: 25px;
+  right: -28px;
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
+  background-color: #23c70a;
+  border-radius: 50%;
+}
+.active-user {
+  position: absolute;
+  top: 17px;
+  right: -4px;
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
+  background-color: #23c70a;
+  border-radius: 50%;
+}
+.user-id {
+  border-radius: 50%;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  color: #3377ff;
+  background-color: #d6e4ff;
+}
+
+.sub-nav {
+  color: #707070;
+  font-size: 16px;
+}
+.sub-nav :hover {
+  color: #707070;
+}
+.sub-nav-active {
+  color: #15bbf9;
+  font-weight: bold;
+ border-bottom: 4px solid #15BBF9;
+   border-bottom-left-radius: 2px;
+
+}
+.no-margin{
+    margin: 10px !important;
+}
