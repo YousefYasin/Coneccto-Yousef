@@ -1,6 +1,5 @@
 import React from "react";
 import { Pie } from "@ant-design/charts";
-import { VictoryPie, VictoryTheme } from "victory";
 
 const index = ({ data, innerTitle, height, title, width }) => {
   var config = {
